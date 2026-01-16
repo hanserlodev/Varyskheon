@@ -1,0 +1,101 @@
+# ============================================================
+# btop — Axiom Theme
+# Professional dark | High contrast | Systems monitoring
+# Cold blue structure + warm industrial red emphasis
+# ============================================================
+
+# -------------------------
+# Base interface
+# -------------------------
+
+theme[main_bg]="#0f1115"       # Deep carbon black
+theme[main_fg]="#e6e8eb"       # Clear white text
+theme[title]="#e6e8eb"         # Box titles - high contrast
+theme[hi_fg]="#2b4f7c"         # Highlights - cold blue
+theme[inactive_fg]="#6a6d75"   # Disabled text - muted grey
+
+# -------------------------
+# Selection & interaction
+# -------------------------
+
+theme[selected_bg]="#1f3a5f"   # Deep blue selection
+theme[selected_fg]="#e6e8eb"   # White text on selection
+
+# -------------------------
+# UI structure elements
+# -------------------------
+
+theme[cpu_box]="#2a2f3a"       # Box borders - neutral
+theme[mem_box]="#2a2f3a"
+theme[net_box]="#2a2f3a"
+theme[proc_box]="#2a2f3a"
+theme[div_line]="#2a2f3a"      # Dividers
+
+# -------------------------
+# Process information
+# -------------------------
+
+theme[proc_misc]="#7a8895"     # Muted blue-grey for metadata
+
+# -------------------------
+# Temperature gradient (safe → critical)
+# -------------------------
+
+theme[temp_start]="#2b4f7c"    # Cool - normal operation
+theme[temp_mid]="#7a1f2b"      # Warming - attention needed
+theme[temp_end]="#4a1219"      # Critical - dark red
+
+# -------------------------
+# CPU usage gradient
+# -------------------------
+
+theme[cpu_start]="#1f3a5f"     # Low - deep blue
+theme[cpu_mid]="#2b4f7c"       # Medium - structural blue
+theme[cpu_end]="#7a1f2b"       # High - industrial red
+
+# -------------------------
+# Memory metrics
+# -------------------------
+
+# Free memory - subtle gradient
+theme[free_start]="#2a2f3a"
+theme[free_mid]="#1f3a5f"
+theme[free_end]="#2b4f7c"
+
+# Cached memory - blue shades
+theme[cached_start]="#1f3a5f"
+theme[cached_mid]="#2b4f7c"
+theme[cached_end]="#3a5f8a"
+
+# Available memory - progressive blue
+theme[available_start]="#2b4f7c"
+theme[available_mid]="#1f3a5f"
+theme[available_end]="#161a22"
+
+# Used memory - attention gradient
+theme[used_start]="#2b4f7c"
+theme[used_mid]="#7a1f2b"
+theme[used_end]="#a8323e"
+
+# -------------------------
+# Network traffic
+# -------------------------
+
+# Download - blue spectrum
+theme[download_start]="#1f3a5f"
+theme[download_mid]="#2b4f7c"
+theme[download_end]="#3a5f8a"
+
+# Upload - red spectrum for distinction
+theme[upload_start]="#7a1f2b"
+theme[upload_mid]="#a8323e"
+theme[upload_end]="#c84554"
+theme[upload_end]="#5E1F1F"
+
+# -------------------------
+# Process intensity
+# -------------------------
+
+theme[process_start]="#5B7C99"
+theme[process_mid]="#2F5D8A"
+theme[process_end]="#8B2E2E"

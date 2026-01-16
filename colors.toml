@@ -1,0 +1,44 @@
+# Axiom Theme - Professional dark palette
+# 50% deep neutrals, 25% cold blue, 25% warm industrial red
+# High contrast, low saturation, academia-tech aesthetic
+
+# Core colors
+accent = "#2b4f7c"
+cursor = "#e6e8eb"
+background = "#0f1115"
+foreground = "#e6e8eb"
+selection_background = "#1f3a5f"
+selection_foreground = "#e6e8eb"
+
+# Terminal palette - ANSI colors
+# Black (neutral base)
+color0  = "#0f1115"
+color8  = "#2a2f3a"
+
+# Red (industrial, emphasis)
+color1  = "#7a1f2b"
+color9  = "#a8323e"
+
+# Green (systems, success - dark teal instead of lime)
+color2  = "#1f4a4a"
+color10 = "#2d6a6a"
+
+# Yellow (warnings - dark amber)
+color3  = "#6b4421"
+color11 = "#8a5a2d"
+
+# Blue (structure, control)
+color4  = "#1f3a5f"
+color12 = "#2b4f7c"
+
+# Magenta (secondary emphasis - muted)
+color5  = "#5a2f4a"
+color13 = "#7a4466"
+
+# Cyan (tech, data)
+color6  = "#1f4a5f"
+color14 = "#2b6a7c"
+
+# White (text)
+color7  = "#c5c8cd"
+color15 = "#e6e8eb"
